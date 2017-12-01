@@ -1,0 +1,7 @@
+*.dump*
+a.out
+*.hi
+*.ll
+tags
+*.o
+

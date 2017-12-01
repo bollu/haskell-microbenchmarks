@@ -1,0 +1,7 @@
+### Haskell benchmarks
+
+A collection of microbenchmarks to observe GHC compilation against C/C++. 
+
+I'm doing this for [simplexhc](https://github.com/bollu/simplexhc-cpp), which aims to beat GHC for certain types of compute (or perhaps across the board) by leveraging LLVM's strengths - really good analysis, really good instruction selection, pretty good optimisation pipeline.
+
+
