@@ -7,5 +7,7 @@ clean:
 
 build:
 	ghc -O3 main.hs -o a.out -ddump-stg -ddump-cmm -ddump-to-file
+	# ghc -O3 main.hs -o a.out -ddump-stg -ddump-cmm -ddump-to-file -fplugin=Sxhc.Plugin
 run:
 	./a.out
+

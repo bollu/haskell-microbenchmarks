@@ -1,4 +1,5 @@
 all: clean build run
+
 build:
 	clang test.c -o a.out -O3
 	clang test.c -o a.s -O3 -S
@@ -9,4 +10,3 @@ clean:
 
 run:
 	sudo perf stat -d ./a.out
-	# time ./a.out

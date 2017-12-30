@@ -7,6 +7,6 @@ int ackerman(int m, int n) {
 }
 
 int main() {
-    printf("%d", ackerman(3, 11));
+    printf("%d", ackerman(3, 14));
     return 0;
 }
